@@ -1,15 +1,17 @@
 .wrapper{
-    border: 5px solid black;
-    background-image: linear-gradient(#FAF6EEff, #FDEC00ff, #FFCC00ff,#CC8F1Bff);
+    background-image: linear-gradient( to right, #FAF6EEff, #FDEC00ff, #FFCC00ff,#CC8F1Bff);
     display: grid;
+    flex-wrap: wrap;
     list-style: none;
     text-align: center;
+    width: 100%;
+    height: auto;
+
 
 }
 
 .beersBeers {
     display: flex;
-    /*flex-direction: row;*/
     list-style: none;
     flex-wrap: wrap;
     padding: 15px;
@@ -20,6 +22,8 @@
 
 p {
   font-weight: normal;
+  margin: 2px;
+  padding: 5px;
 }
 
 h4 {
@@ -46,31 +50,33 @@ button {
 
 }
 
-#Box {
-    width: 1000px;
-    height:300px;
-    background-color: grey;
-    border: 5px black dashed;
 
-}
-
-
-h2 {
+h1 {
     font-size:50px;
-    padding: 15px;
-    margin-left: 55px;
+
     color: black;
     text-shadow: 3px 3px 20px gold,
     -2px 1px 30px grey;
 
 }
 
+h2 {
+    font-size:50px;
+
+    color: black;
+    text-shadow: 3px 3px 20px gold,
+    -2px 1px 30px grey;
+}
+
 ul {
-    text-align: center;
     justify-content: center;
-    align-items: center;
+
 }
 
 li {
     text-align: center;
+}
+
+body {
+    width: 100%;
 }
