@@ -31,7 +31,7 @@ export default class Beers extends Component {
        console.log('Render!');
         return (
             <div className = "wrapper">
-                <h2> List of the Best Beer  </h2>
+                <h2> List of the Best Beers  </h2>
 
                 <ul className= "beersBeers">
                     {this.state.beers.map((beer) => {
