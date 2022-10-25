@@ -17,14 +17,14 @@ function Beer(props) {
     return (
 
             <li>
-            <img src = {props.beer.image_url} alt = {props.beer.name}/>
-            <h4> {props.beer.name} </h4>
-            <p> {props.beer.description} </p>
-                <div>
-                    <button type="button" onClick={handleClick}> 👍 </button>
-
-                </div>
+                <img src = {props.beer.image_url} alt = {props.beer.name}/>
+                <h4> {props.beer.name} </h4>
+                <p> {props.beer.description} </p>
+                    <div>
+                        <button type="button" onClick={handleClick}> 👍 </button>
+                    </div>
                 Likes: { count}
+                <box className='BottleCap'></box>
             </li>
 
     );
