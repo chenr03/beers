@@ -10,7 +10,12 @@
     flex-wrap: wrap;
     padding: 15px;
     margin: 15px;
+    font-weight: bolder;
 
+}
+
+p {
+  font-weight: normal;
 }
 
 h4 {
@@ -22,7 +27,15 @@ img{
     margin: 10px;
 }
 
-button {
-    background: red;
-    color: white;
+.styledButton {
+    background: none;
+    border: none;
 }
+
+button {
+    background: white;
+    color: black;
+    font-size: 25px;
+    margin: 25px;
+}
+
